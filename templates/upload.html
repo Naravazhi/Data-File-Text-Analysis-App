@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File or Enter URL</title>
+</head>
+<body>
+    <h1>Upload a text file or enter a URL</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="file">Upload Text File:</label>
+        <input type="file" name="file"><br><br>
+        
+        <label for="url">Or Enter URL:</label>
+        <input type="text" name="url" placeholder="https://example.com/article"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
