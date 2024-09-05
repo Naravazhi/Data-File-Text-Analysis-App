@@ -1,6 +1,6 @@
 # Data-File-Text-Analysis-App
 
-
+<pre>
 After pulling from this project, you have to do a few simple steps. 
 
 Steps:
@@ -13,3 +13,4 @@ Install these using pip: TextBlob, newspaper, werkzeug, flask, flask_executor
 Once done, run python app.py to start the host. 
 Once, you get to the page, then upload a file or enter a url. 
 Press the submit button, and you will get the stats.
+</pre>
