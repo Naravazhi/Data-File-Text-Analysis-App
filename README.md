@@ -13,4 +13,10 @@ Install these using pip: TextBlob, newspaper, werkzeug, flask, flask_executor
 Once done, run python app.py to start the host. 
 Once, you get to the page, then upload a file or enter a url. 
 Press the submit button, and you will get the stats.
+
+
+Documentation for scaling: 
+  I have recently taken a course on Amazon AWS. This application could be scaled with Amazon Elastic Beanstalk. Elastic Beanstalk automatically manages scaling and load balancing. Also Amazon S3 can be used for storage. 
+
+  For scalability we can transform the app to be stateless, which just avoids data or results being stored locally on a single server. We can use Amazon RDS, for example, to manage user data and results.
 </pre>
